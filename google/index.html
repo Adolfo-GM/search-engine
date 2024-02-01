@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="theme-color" content="#f2f2f2">
+    
+    <link rel="icon" sizes="192x192" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <link rel="manifest" href="manifest.json">
+  
+
+    <title>/A Search</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js"></script>
+<body>
+    
+    <div id="container">
+        <input type="text" id="searchInput" required>
+        <div id="search_button" onclick="search()"></div>
+        <div id="img_button" onclick="imgSearch()"></div>
+    </div>
+
+
+    <a class="weatherwidget-io" href="https://forecast7.com/en/42d98n81d25/london/" data-label_1="LONDON" data-label_2="WEATHER" data-font="Times New Roman" data-icons="Climacons" data-days="5" data-theme="weather_one" >LONDON WEATHER</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+
+
+</body>
+
+
+
+</html>
